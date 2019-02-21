@@ -2,6 +2,7 @@
 html {
   --color-letter : #ffffff;
   --color-blue:#0000ff;
+  --color-yellow:#ffff00;
 }
  /***** CSS-GRIDS ****/
  .container {
@@ -31,6 +32,7 @@ html {
       font-family: "SpaceGrotesk-Bold";
       color:var(--color-letter);
       grid-area: header;
+      font-size: 60px;
   }
 /**** DESCRIPTION ****/
 
@@ -38,13 +40,39 @@ html {
    font-family: "SpaceGrotesk-Regular";
    src: url(addons/SpaceGrotesk/SpaceGrotesk-Regular.otf) format("opentype");
  }
- .about-testo1 {
+
+ .about-testo {
    font-family: "SpaceGrotesk-Regular";
    color:var(--color-letter);
-   grid-area:main2;
- }
- .about-testo2 {
-   font-family: "SpaceGrotesk-Regular";
-   color:var(--color-letter);
-   grid-area:main3;
- }
+   font-size: 24px;
+}
+
+ .margine-about-1 {
+   margin-bottom: 150px;
+}
+
+.margine-about-2 {
+  margin-top:50px;
+}
+
+.about-link{
+  text-decoration: none;
+  color: var(--color-letter);
+  font-family: "SpaceGrotesk-Regular";
+  font-size: 16px;
+}
+.about-link:hover{
+  text-decoration: none;
+  color: var(--color-yellow);
+  font-family: "SpaceGrotesk-Regular";
+  font-size: 16px;
+  transition: 0.5s;
+}
+
+a:visited{
+  text-decoration: none;
+  color: var(--color-letter);
+  font-family: "SpaceGrotesk-Regular";
+  font-size: 16px;
+
+}
