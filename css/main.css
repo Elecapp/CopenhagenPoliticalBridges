@@ -51,12 +51,14 @@ html {
   margin-top:50px;
 }
 
+
 .about-link{
   text-decoration: none;
   color: var(--color-letter);
   font-family: "SpaceGrotesk-Regular";
   font-size: 16px;
 }
+
 .about-link:hover{
   text-decoration: none;
   color: var(--color-yellow);
@@ -79,16 +81,74 @@ html {
 .wrapper {
     display: flex;
     width: 100%;
+
 }
 
 #sidebar {
-    width: 250px;
+    width: 400px;
     position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #7386D5;
+    background: var(--color-blue);
     color: #fff;
     transition: all 0.3s;
+
+}
+
+.bottoni {
+
+  color: var(--color-letter);
+  font-family: "SpaceGrotesk-Regular";
+  font-size: 16px;
+  background-color: var(--color-blue);
+  border: 3px solid white;
+
+}
+
+button:active {
+    outline: none;
+    border: none;
+}
+
+ul{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+li {
+
+  margin-bottom: 40px;
+}
+
+.mappa {
+  width:100%;
+  height: auto;
+}
+
+
+/**** SCROLLBAR ****/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color-letter);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-blue);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.container-fluid {
+  padding: -15px;
 }
