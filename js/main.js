@@ -3,9 +3,8 @@
 
 /*** SIDEBAR ***/
 
-  
-$(document).ready(function() {
 
+$(document).ready(function() {
 
   $("nav a").on("click", function(event) {
     event.preventDefault()
