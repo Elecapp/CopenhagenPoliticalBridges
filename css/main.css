@@ -58,10 +58,16 @@ html {
   transition: 0.5s;
 }
 
-a:visited{
+.about-link:visited{
   text-decoration: none;
   color: var(--color-letter);
   font-family: "SpaceGrotesk-Regular";
   font-size: 16px;
+  transition: 0.5s;
 
+}
+
+/**** ****/
+.laterale {
+  background-color: var(--color-blue);
 }
