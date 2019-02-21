@@ -1,7 +1,6 @@
-
 /*** AJAX PER IL LINK ***/
 
-$("nav a").on("click", function(event){
+$("nav a").on("click", function(event) {
   event.preventDefault()
 
   const href = $(this).attr("href")
@@ -11,7 +10,7 @@ $("nav a").on("click", function(event){
   $.ajax({
     url: href,
     success: function(data) {
-      $("main").fadeOut(400, function(){
+      $("main").fadeOut(400, function() {
         const newPage = $(data).filter("main").html()
 
         $("main").html(newPage)
@@ -20,38 +19,35 @@ $("nav a").on("click", function(event){
       })
     }
   })
-})
+});
 
+/*** SIDEBAR ***/
+$(document).ready(function() {
 
+  $("#sidebar").mCustomScrollbar({
+    theme: "minimal"
+  });
 
-
-$(document).ready(function () {
-
-    $("#sidebar").mCustomScrollbar({
-         theme: "minimal"
-    });
-
-    $('#sidebarCollapse').on('click', function () {
-        $('#sidebar').toggleClass('active');
-    });
+  $('#sidebarCollapse').on('click', function() {
+    $('#sidebar').toggleClass('active');
+  });
 
 });
 
+$(document).ready(function() {
 
-$(document).ready(function () {
+  $("#sidebar").mCustomScrollbar({
+    theme: "minimal"
+  });
 
-    $("#sidebar").mCustomScrollbar({
-         theme: "minimal"
-    });
-
-    $('#sidebarCollapse').on('click', function () {
-        // open or close navbar
-        $('#sidebar').toggleClass('active');
-        // close dropdowns
-        $('.collapse.in').toggleClass('in');
-        // and also adjust aria-expanded attributes we use for the open/closed arrows
-        // in our CSS
-        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-    });
+  $('#sidebarCollapse').on('click', function() {
+    // open or close navbar
+    $('#sidebar').toggleClass('active');
+    // close dropdowns
+    $('.collapse.in').toggleClass('in');
+    // and also adjust aria-expanded attributes we use for the open/closed arrows
+    // in our CSS
+    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+  });
 
 });
