@@ -1,28 +1,16 @@
 /**** VARIABLES *****/
 html {
-  --color-letter : #ffffff;
-  --color-blue:#0000ff;
-  --color-yellow:#ffff00;
+  --color-letter: #ffffff;
+  --color-blue: #0000ff;
 }
- /***** CSS-GRIDS ****/
- .container {
-   display: grid;
-   grid-template-columns: auto auto auto auto;
-
-   grid-template-rows:auto;
-   grid-template-areas:
-   "header header header header"
-
-}
-
 
 
 
 /***** ABOUT ****/
-
 .about {
   background-color: var(--color-blue);
-  }
+}
+
 /**** TITLE ****/
   @font-face {
       font-family: "SpaceGrotesk-Bold";
