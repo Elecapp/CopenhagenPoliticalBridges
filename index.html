@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Copenhagen Political Bridges</title>
   <link rel="stylesheet" href="css/main.css">
-  <link rel="icon" href="addons/tabicon.png">
+  <link rel="icon" href="assets/tabicon.png">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
@@ -16,38 +16,34 @@
       <nav id="sidebar">
         <div class="sidebar-header">
           <a href="about.html" class="about-link">About</a>
-          <h1 class="about-title">[BISCOTTI DANESI]</h1>
+          <h1 class="about-title">Popping the Bubble</h1>
         </div>
         <ul class="list-unstyled components">
           <li class="active">
           </li>
           <li>
-            <button class="bottoni"> Mappa 1</button>
+            <button class="bottoni" onclick="toggleTYPE()"> Events by type </button>
           </li>
           <li>
-            <button class="bottoni"> Mappa 2</button>
+            <button class="bottoni" onclick="toggleTOPIC()"> Events by topic </button>
           </li>
           <li>
-            <button class="bottoni"> Mappa 3</button>
+            <button class="bottoni" onclick="toggleFOOD()"> Food </button>
           </li>
           <li>
-            <button class="bottoni"> Mappa 4</button>
-          </li>
-          <li>
-            <button class="bottoni"> Mappa 5</button>
-          </li>
-          <li>
-            <button class="bottoni"> Mappa 6</button>
+            <button class="bottoni" onclick="toggleIMAGES()"> Events by images</button>
           </li>
         </ul>
 
       </nav>
       <!-- Page Content -->
       <div id="content">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
             <!-- Map -->
-            <img src="addons/mappa.png" class="mappa">
+            <img src="assets/map_STATIC.png" id="STATIC" class="mappa is-visible">
+            <img src="assets/map_TYPE.png" id="TYPE" class="mappa is-hidden">
+            <img src="assets/map_TOPIC.png" id="TOPIC" class="mappa is-hidden">
+            <img src="assets/map_FOOD.png" id="FOOD" class="mappa is-hidden">
+            <img src="assets/map_IMAGES.png" id="IMAGES" class="mappa is-hidden">
           </div>
         </nav>
       </div>
