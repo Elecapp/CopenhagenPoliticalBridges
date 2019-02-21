@@ -76,6 +76,72 @@ html {
 
 }
 
+.project-name {
+  font-family: "SpaceGrotesk-Bold";
+
+}
+
+
+
+/**** ROAD MAP *****/
+
+  .st0 {
+    fill: #FFFFFF;
+  }
+
+  .st1 {
+    fill: none;
+  }
+
+  .st2 {
+    fill: #1D1D1B;
+  }
+
+  .st3 {
+    font-family: 'SpaceGrotesk-Regular';
+  }
+
+  .st4 {
+    font-size: 8px;
+  }
+
+  .st5 {
+    fill: #0000FF;
+  }
+
+  .st6 {
+    fill: none;
+    stroke: #0000FF;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+  }
+
+  .st7 {
+    font-family: 'SpaceGrotesk-Bold';
+  }
+
+  .st8 {
+    font-size: 12px;
+  }
+
+  .st9 {
+    fill: none;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+  }
+
+  .st10 {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+  }
+
+  .st11 {
+    font-size: 11.9944px;
+  }
+
+
 /**** INDEX ****/
 
 .wrapper {
