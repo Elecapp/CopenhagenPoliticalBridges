@@ -1,0 +1,50 @@
+/**** VARIABLES *****/
+html {
+  --color-letter : #ffffff;
+  --color-blue:#0000ff;
+}
+ /***** CSS-GRIDS ****/
+ .container {
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+
+   grid-template-rows:auto;
+   grid-template-areas:
+   "header header header header"
+
+}
+
+
+
+
+/***** ABOUT ****/
+
+.about {
+  background-color: var(--color-blue);
+  }
+/**** TITLE ****/
+  @font-face {
+      font-family: "SpaceGrotesk-Bold";
+      src: url(addons/SpaceGrotesk/SpaceGrotesk-Bold.otf) format("opentype");
+  }
+  h1.about-title {
+      font-family: "SpaceGrotesk-Bold";
+      color:var(--color-letter);
+      grid-area: header;
+  }
+/**** DESCRIPTION ****/
+
+ @font-face {
+   font-family: "SpaceGrotesk-Regular";
+   src: url(addons/SpaceGrotesk/SpaceGrotesk-Regular.otf) format("opentype");
+ }
+ .about-testo1 {
+   font-family: "SpaceGrotesk-Regular";
+   color:var(--color-letter);
+   grid-area:main2;
+ }
+ .about-testo2 {
+   font-family: "SpaceGrotesk-Regular";
+   color:var(--color-letter);
+   grid-area:main3;
+ }
