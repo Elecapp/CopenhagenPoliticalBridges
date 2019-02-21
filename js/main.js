@@ -1,7 +1,7 @@
 
 /*** AJAX PER IL LINK ***/
 
-$("nav a").on("click", function(event){
+/*$("nav a").on("click", function(event){
   event.preventDefault()
 
   const href = $(this).attr("href")
@@ -20,4 +20,4 @@ $("nav a").on("click", function(event){
       })
     }
   })
-})
+})*/
