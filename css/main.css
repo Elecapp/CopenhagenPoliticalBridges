@@ -1,0 +1,32 @@
+/**** VARIABLES *****/
+html {
+  --color-letter : #ffffff;
+  --color-blue:#0000ff;
+}
+
+
+
+/***** ABOUT ****/
+
+.about {
+  background-color: var(--color-blue);
+  }
+/**** TITLE ****/
+  @font-face {
+      font-family: "SpaceGrotesk-Bold";
+      src: url(addons/SpaceGrotesk/SpaceGrotesk-Bold.otf) format("opentype");
+  }
+  h1.about-title {
+      font-family: "SpaceGrotesk-Bold";
+      color:var(--color-letter);
+  }
+/**** DESCRIPTION ****/
+
+ @font-face {
+   font-family: "SpaceGrotesk-Regular";
+   src: url(addons/SpaceGrotesk/SpaceGrotesk-Regular.otf) format("opentype");
+ }
+ .about-testo {
+   font-family: "SpaceGrotesk-Regular";
+   color:var(--color-letter);
+ }
