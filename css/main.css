@@ -151,7 +151,7 @@ html {
 }
 
 #sidebar {
-    width: 20vw;
+    width: 30vw;
     position: fixed;
     top: 0;
     left: 0;
@@ -191,8 +191,8 @@ li {
 
 .mappa {
   height: auto;
-  width: 79vw;
-  margin-left: 20vw;
+  width: 69vw;
+  margin-left: 30vw;
 
 }
 
@@ -230,8 +230,9 @@ li {
 
 
 .lato {
-  margin-left:50px;
+  margin-left:1rem;
   font-family: "SpaceGrotesk-Regular";
   font-size: 12px;
+  margin-right: 1rem;
 
 }

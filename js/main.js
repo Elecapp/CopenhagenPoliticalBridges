@@ -51,8 +51,8 @@ function toggleTOPIC() {
     map2.src = "assets/map_TOPIC.png";
 
     testo0.classList.add("is-hidden");
-    testo1.classList.remove("is-hidden");
-    testo2.classList.add("is-hidden");
+    testo1.classList.add("is-hidden");
+    testo2.classList.remove("is-hidden");
     testo3.classList.add("is-hidden");
     testo4.classList.add("is-hidden");
     testo5.classList.add("is-hidden");
@@ -70,9 +70,9 @@ function toggleFOOD() {
     map3.src = "assets/map_FOOD.png";
 
     testo0.classList.add("is-hidden");
-    testo1.classList.remove("is-hidden");
+    testo1.classList.add("is-hidden");
     testo2.classList.add("is-hidden");
-    testo3.classList.add("is-hidden");
+    testo3.classList.remove("is-hidden");
     testo4.classList.add("is-hidden");
     testo5.classList.add("is-hidden");
     testo6.classList.add("is-hidden");
@@ -89,10 +89,10 @@ function toggleIMAGES() {
     map4.src = "assets/map_IMAGES.png";
 
     testo0.classList.add("is-hidden");
-    testo1.classList.remove("is-hidden");
+    testo1.classList.add("is-hidden");
     testo2.classList.add("is-hidden");
     testo3.classList.add("is-hidden");
-    testo4.classList.add("is-hidden");
+    testo4.classList.remove("is-hidden");
     testo5.classList.add("is-hidden");
     testo6.classList.add("is-hidden");
 };
@@ -107,11 +107,11 @@ function toggleAREA() {
     map5.src="assets/map_AREA.png";
 
     testo0.classList.add("is-hidden");
-    testo1.classList.remove("is-hidden");
+    testo1.classList.add("is-hidden");
     testo2.classList.add("is-hidden");
     testo3.classList.add("is-hidden");
     testo4.classList.add("is-hidden");
-    testo5.classList.add("is-hidden");
+    testo5.classList.remove("is-hidden");
     testo6.classList.add("is-hidden");
 
 }
@@ -126,11 +126,11 @@ function toggleSERVICE() {
     map6.src="assets/map_SERVICE.png";
 
     testo0.classList.add("is-hidden");
-    testo1.classList.remove("is-hidden");
+    testo1.classList.add("is-hidden");
     testo2.classList.add("is-hidden");
     testo3.classList.add("is-hidden");
     testo4.classList.add("is-hidden");
     testo5.classList.add("is-hidden");
-    testo6.classList.add("is-hidden");
+    testo6.classList.remove("is-hidden");
 
 }
