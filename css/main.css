@@ -227,6 +227,10 @@ li {
     display: none;
 }
 
-.is-visible {
-    opacity: 1;
+
+.lato {
+  margin-left:50px;
+  font-family: "SpaceGrotesk-Regular";
+  font-size: 12px;
+
 }
