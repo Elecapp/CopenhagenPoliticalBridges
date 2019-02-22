@@ -18,6 +18,7 @@ $(document).ready(function() {
 });***/
 
 /*** MAPS BUTTONS ***/
+
 let map0 = document.getElementById("STATIC")
 let map1 = document.getElementById("TYPE");
 let map2 = document.getElementById("TOPIC");
