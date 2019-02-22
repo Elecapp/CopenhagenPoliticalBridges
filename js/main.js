@@ -1,4 +1,4 @@
-
+/*** AJAX PER IL LINK
 $(document).ready(function() {
   $("nav a").on("click", function(event) {
     event.preventDefault()
@@ -15,7 +15,7 @@ $(document).ready(function() {
       }
     })
   });
-});
+});***/
 
 /*** MAPS BUTTONS ***/
 let map0 = document.getElementById("STATIC")
@@ -65,6 +65,14 @@ function toggleTOPIC() {
   map5.classList.add("is-hidden");
   map6.classList.add("is-hidden");
     map2.src = "assets/map_TOPIC.png";
+
+    testo0.classList.add("is-hidden");
+    testo1.classList.remove("is-hidden");
+    testo2.classList.add("is-hidden");
+    testo3.classList.add("is-hidden");
+    testo4.classList.add("is-hidden");
+    testo5.classList.add("is-hidden");
+    testo6.classList.add("is-hidden");
 };
 
 function toggleFOOD() {
@@ -76,6 +84,14 @@ function toggleFOOD() {
   map5.classList.add("is-hidden");
   map6.classList.add("is-hidden");
     map3.src = "assets/map_FOOD.png";
+
+    testo0.classList.add("is-hidden");
+    testo1.classList.remove("is-hidden");
+    testo2.classList.add("is-hidden");
+    testo3.classList.add("is-hidden");
+    testo4.classList.add("is-hidden");
+    testo5.classList.add("is-hidden");
+    testo6.classList.add("is-hidden");
 };
 
 function toggleIMAGES() {
@@ -87,6 +103,14 @@ function toggleIMAGES() {
   map5.classList.add("is-hidden");
   map6.classList.add("is-hidden");
     map4.src = "assets/map_IMAGES.png";
+
+    testo0.classList.add("is-hidden");
+    testo1.classList.remove("is-hidden");
+    testo2.classList.add("is-hidden");
+    testo3.classList.add("is-hidden");
+    testo4.classList.add("is-hidden");
+    testo5.classList.add("is-hidden");
+    testo6.classList.add("is-hidden");
 };
 function toggleAREA() {
   map0.classList.add("is-hidden");
@@ -98,6 +122,14 @@ function toggleAREA() {
   map6.classList.add("is-hidden");
     map5.src="assets/map_AREA.png";
 
+    testo0.classList.add("is-hidden");
+    testo1.classList.remove("is-hidden");
+    testo2.classList.add("is-hidden");
+    testo3.classList.add("is-hidden");
+    testo4.classList.add("is-hidden");
+    testo5.classList.add("is-hidden");
+    testo6.classList.add("is-hidden");
+
 }
 function toggleSERVICE() {
   map0.classList.add("is-hidden");
@@ -107,6 +139,14 @@ function toggleSERVICE() {
   map4.classList.add("is-hidden");
   map5.classList.add("is-hidden");
   map6.classList.remove("is-hidden");
-    map6.src="assets/map_AREA.png";
+    map6.src="assets/map_SERVICE.png";
+
+    testo0.classList.add("is-hidden");
+    testo1.classList.remove("is-hidden");
+    testo2.classList.add("is-hidden");
+    testo3.classList.add("is-hidden");
+    testo4.classList.add("is-hidden");
+    testo5.classList.add("is-hidden");
+    testo6.classList.add("is-hidden");
 
 }
