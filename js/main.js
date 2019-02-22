@@ -1,4 +1,4 @@
-/*** AJAX PER IL LINK
+
 $(document).ready(function() {
   $("nav a").on("click", function(event) {
     event.preventDefault()
@@ -15,7 +15,7 @@ $(document).ready(function() {
       }
     })
   });
-});***/
+});
 
 /*** MAPS BUTTONS ***/
 let map0 = document.getElementById("STATIC")
@@ -26,6 +26,7 @@ let map4 = document.getElementById("IMAGES");
 let map5 = document.getElementById("AREAS");
 let map6 = document.getElementById("SERVICE");
 
+let testo0 = document.getElementById("TESTO0");
 let testo1 = document.getElementById("TESTOTYPE");
 let testo2 = document.getElementById("TESTOTOPIC");
 let testo3 = document.getElementById("TESTOFOOD");
@@ -44,6 +45,7 @@ function toggleTYPE() {
     map6.classList.add("is-hidden");
     map1.src = "assets/map_TYPE.png";
 
+    testo0.classList.add("is-hidden");
     testo1.classList.remove("is-hidden");
     testo2.classList.add("is-hidden");
     testo3.classList.add("is-hidden");
